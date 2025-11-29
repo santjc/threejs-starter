@@ -49,6 +49,7 @@ export default class Experience {
   update() {
     this.camera.update();
     this.renderer.update();
+    this.mainScene.update();
   }
 
   destroy() {
@@ -79,6 +80,5 @@ export default class Experience {
     if (this.debug.active) this.debug.ui.destroy();
   }
 }
-
 
 // https://www.youtube.com/watch?v=alhpH6ECFvQ&t=17
