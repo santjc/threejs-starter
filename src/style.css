@@ -14,15 +14,3 @@ body {
   left: 0;
   outline: none;
 }
-
-.crosshair {
-  display: flex;
-  position: absolute;
-  inset: 0;
-  margin: auto;
-  width: 10px;
-  height: 10px;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  opacity: 0.75;
-}

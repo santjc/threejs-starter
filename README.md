@@ -7,6 +7,7 @@ A modern, production-ready starter template for Three.js projects.
 - Modular architecture with clean separation of concerns
 - Built-in utilities for debugging, time management, and resource loading
 - Responsive camera and renderer setup
+- Configurable grid floor component with grid shader
 - Vite for fast development and optimized builds
 - TypeScript-ready structure (can be easily migrated)
 

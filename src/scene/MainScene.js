@@ -1,5 +1,6 @@
 import Experience from "../core/Experience.js";
 import * as THREE from "three";
+import GridFloor from "./GridFloor.js";
 
 export default class MainScene {
   constructor() {
@@ -7,6 +8,7 @@ export default class MainScene {
     this.scene = this.experience.scene;
 
     // Setup
+    // this.gridFloor = new GridFloor();
     this.setDummy();
     this.setLights();
   }
@@ -15,6 +17,7 @@ export default class MainScene {
     const geometry = new THREE.BoxGeometry(1, 1, 1);
     const material = new THREE.MeshStandardMaterial({ color: 0x00ff00 });
     this.dummy = new THREE.Mesh(geometry, material);
+    this.dummy.position.y = 1;
     this.scene.add(this.dummy);
   }
 
